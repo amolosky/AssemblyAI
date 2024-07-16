@@ -7,7 +7,7 @@
 import assemblyai as aai
 
 # Replace with your API key
-aai.settings.api_key = "ce2e5c0483264ca084eaa529e2311c4c"
+aai.settings.api_key = "replace with your AssemblyAI API key"
 
 # URL of the file to transcribe
 FILE_URL = '06-diarization-stt/American-life-vacations.mp3' 
