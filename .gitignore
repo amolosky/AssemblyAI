@@ -1,141 +1,123 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
+# .gitignore for AssemblyAI project
+
+# macOS system files
+.DS_Store
+
+# Python
 *.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
+__pycache__/
+*.pyo
+*.pyd
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# PyInstaller
-# Usually these files are written by a python script from a template
-# before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
+env/
+venv/
 pip-log.txt
 pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-cover/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# IPython
-profile_default/
-ipython_config.py
+# C/C++
+*.o
+*.d
+*.so
+*.obj
+*.exe
+*.dll
+*.lib
 
-# pyenv
-.python-version
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
 
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
+# Logs and databases
+*.log
+*.sql
+*.sqlite
 
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# SageMath parsed files
-*.sage.py
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime*
+.project
+.settings/
+*.esproj
+*.tmproj
+*.iml
 
-# Environments
+# Build output
+/dist
+/tmp
+/out
+/build
+*.sass-cache
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
 .env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+.env.test
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
 
-# Rope project settings
-.ropeproject
+# Next.js build output
+.next
+.out
 
-# mkdocs documentation
-/site
+# Nuxt.js build / generate output
+.nuxt
+dist/
 
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
+# Gatsby files
+.cache/
+# Comment in the public line in if your project uses Gatsby and *not* git-lfs
+# public
 
-# Pyre type checker
-.pyre/
+# VuePress build output
+.vuepress/dist
 
-# pytype static type analyzer
-.pytype/
+# Serverless directories
+.serverless/
 
-# Cython debug symbols
-cython_debug/
+# FuseBox cache
+.fusebox/
 
-# macOS-specific files
-.DS_Store
+# DynamoDB Local files
+.dynamodb/
 
-# Custom files
-# Add any additional files or directories specific to your project
+# TernJS port file
+.tern-port
