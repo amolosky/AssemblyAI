@@ -1,1 +1,1 @@
-API_KEY_ASSEMBLYAI = 'key1'
+API_KEY_ASSEMBLYAI = 'replace with your assemblyai api key'
