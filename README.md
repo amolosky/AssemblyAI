@@ -1,4 +1,6 @@
-# AssemblyAI Transcription, Sentiment Analysis, and OpenAI Summarization
+![AssemblyAI](https://github.com/amolosky/AssemblyAI/blob/main/Images/AssemblyAI.webp)
+
+# AssemblyAI Transcription, Sentiment Analysis, and OpenAI Summarization Exercises [Unofficial]
 ## Overview
 This repository contains all the files necessary to use the AssemblyAI APIs for converting Speech to Text, including diarization for up to 10 separate speakers. 
  
